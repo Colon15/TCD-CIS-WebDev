@@ -102,12 +102,12 @@
             box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
         }
 
-        .btn-secondary {
+        .btn > .btn-secondary {
             background-color: #00d4ff;
             color: #0a0e27;
         }
 
-        .btn-secondary:hover {
+        .btn:hover > .btn-secondary:hover {
             background-color: #ff00ff;
             box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
         }
