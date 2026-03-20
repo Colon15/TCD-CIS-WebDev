@@ -17,7 +17,7 @@
 
         /* Class Selectors */
         .highlight {
-            background-color: #1a2a5e;
+            background-color: #fdd623;
             color: #fdd623;
             padding: 0.25em 0.5em;
             border-radius: 4px;
@@ -32,7 +32,7 @@
         }
 
         .feature-card {
-            background-color: #1a2a5e;
+            background-color: #fdd623;
             padding: 1.5rem;
             border: 2px solid #ff00ff;
             border-radius: 8px;
