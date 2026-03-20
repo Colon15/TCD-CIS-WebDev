@@ -1,3 +1,6 @@
+/* #52e021 bright green */
+/* #067006 vibrant dark green */
+/* #fdd623 yellow */
 <style>
         /* Element Selectors */
         * {
@@ -163,7 +166,7 @@
             border-top: 3px solid #00d4ff;
         }
         h1 {
-            color: #ff00ff;
+            color: #52e021;
             font-size: 2.5rem;
             margin-bottom: .5rem;
         }
