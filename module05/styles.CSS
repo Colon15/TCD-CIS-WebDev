@@ -171,12 +171,12 @@
             font-size: 1.3rem;
         }
         a {
-            color: #00d4ff;
+            color: #7d8970;
             text-decoration: none;
             font-weight: bold;
         }
         a:hover {
-            color: #ff00ff;
+            color: #52e021;
         }
         .container {
             max-width: 1200px;
@@ -185,7 +185,7 @@
             padding-right: 1.5rem;
         }
         .section {
-            background-color: #0f1a3d;
+            background-color: #0e9c09;
             padding: 2rem;
             margin-bottom: 2rem;
             border-left: 5px solid #00d4ff;
