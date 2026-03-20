@@ -37,11 +37,11 @@
             margin-left: 2rem;
             margin-bottom: 1rem;
         }        
-  /* Class Selectors */
+  /* Class Selectors & pseudo-class*/
         .levels-list-level:nthof-type(odd){
             color: #52e021
         }
-  /* Class Selectors */
+  /* Class Selectors & pseudo-class */
         .levels-list-level:nthof-type(even){
             color: #000000
         }
@@ -79,7 +79,7 @@
             transition: all 0.3s ease;
         }
 
-  /* Class Selectors */
+  /* Class Selectors & pseudo-class*/
         .feature-card:hover {
             border-color: #fdd623;
             box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
@@ -150,7 +150,7 @@
             flex-wrap: wrap;
         }
 
-  /* Class Selectors */
+  /* Class Selectors & pseudo-class*/
         .btn:hover {
             background-color: #52e021;
             box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
@@ -222,6 +222,7 @@
             text-decoration: none;
             font-weight: bold;
         }
+/* pseudo-class */
         a:hover {
             color: #52e021;
         }
