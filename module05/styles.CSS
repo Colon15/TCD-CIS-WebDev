@@ -75,6 +75,16 @@
             border-left: 4px solid #ff00ff;
             border-radius: 4px;
         }
+        .intro-text > p{
+            font-size: 1.1rem;
+            line-height: 1.9;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background-color: #407616;
+            border-left: 4px solid #ff00ff;
+            border-radius: 4px;
+        }
+
 
         .code-example {
             background-color: #0a0e27;
@@ -119,6 +129,7 @@
             background-color: #ff00ff;
             box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
         }
+
 
         /* ID Selector */
         #hero-section {
