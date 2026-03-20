@@ -34,8 +34,8 @@
             margin: 1.5rem 0;
         }
 
-        .feature-card {
-            background-color: #0f1a3d;
+        .feature-card > div {
+            background-color: #067006;
             padding: 1.5rem;
             border: 2px solid #52e021;
             border-radius: 8px;
@@ -176,10 +176,10 @@
             margin-top: 2rem;
             margin-bottom: 1rem;
             padding: .5rem;
-            border-bottom: 2px solid #ff00ff;
+            border-bottom: 2px solid #fdd623;
         }
         h3 {
-            color: #ff00ff;
+            color: #52e021;
             font-size: 2.5rem;
             margin-bottom: .5rem;
             font-size: 1.3rem;
