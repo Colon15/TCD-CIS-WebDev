@@ -1,6 +1,7 @@
 /* #52e021 bright green */
 /* #067006 vibrant dark green */
 /* #fdd623 yellow */
+/* #7f8b72 zombie grey */
 <style>
         /* Element Selectors */
         * {
@@ -35,12 +36,20 @@
         }
 
         .feature-card > div {
-            background-color: #067006;
+            background-color: #7f8b72;
             padding: 1.5rem;
             border: 2px solid #52e021;
             border-radius: 8px;
             transition: all 0.3s ease;
         }
+         .feature-card{
+            background-color: #7f8b72;
+            padding: 1.5rem;
+            border: 2px solid #52e021;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
 
         .feature-card:hover {
             border-color: #fdd623;
