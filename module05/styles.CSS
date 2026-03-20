@@ -68,7 +68,7 @@
             box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
         }
 
-        .feature-card h3 {
+        .feature-card > h3 {
             margin-top: 0;
         }
 
@@ -99,12 +99,14 @@
             border-left: 4px solid #fdd623;
             border-radius: 4px;
         }
+/* I use important because the background color is important to have the right color */
         .intro-text > p{
             font-size: 1.1rem;
             line-height: 1.9;
             margin-bottom: 1.5rem;
             padding: 1rem;
-            background-color: #407616;
+            background-color: #407616; !important
+
             border-left: 4px solid #fdd623;
             border-radius: 4px;
         }
@@ -150,7 +152,7 @@
         }
 
         .btn:hover > .btn-secondary:hover {
-            background-color: #ff00ff;
+            background-color: #ff00ff; 
             box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
         }
 
