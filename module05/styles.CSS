@@ -21,17 +21,20 @@
         
 
         /* Class Selectors */
-
+  /* Class Selectors */
         .levels-list{
             margin-left: 2rem;
             margin-bottom: 1rem;
         }        
+  /* Class Selectors */
         .levels-list-level:nthof-type(odd){
             color: #52e021
         }
+  /* Class Selectors */
         .levels-list-level:nthof-type(even){
             color: #000000
         }
+  /* Class Selectors */
         .highlight {
             background-color: #067006;
             color: #fdd623;
@@ -39,6 +42,7 @@
             border-radius: 4px;
             font-weight: bold;
         }
+  /* Class Selectors */
 
         .feature-grid {
             display: grid;
@@ -46,6 +50,7 @@
             gap: 1.5rem;
             margin: 1.5rem 0;
         }
+   /* Class Selectors & combinators & descendant */
 
         .feature-card > div {
             background-color: #7f8b72;
@@ -54,6 +59,7 @@
             border-radius: 8px;
             transition: all 0.3s ease;
         }
+  /* Class Selectors */
          .feature-card{
             background-color: #7f8b72;
             padding: 1.5rem;
@@ -62,34 +68,36 @@
             transition: all 0.3s ease;
         }
 
-
+  /* Class Selectors */
         .feature-card:hover {
             border-color: #fdd623;
             box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
         }
-
+   /* Class Selectors & combinators & descendant */
         .feature-card > h3 {
             margin-top: 0;
         }
-
+  /* Class Selectors */
         .accent-text {
             color: #fdd623;
             font-weight: bold;
         }
-
+  /* Class Selectors */
         .yellow-accent {
             color: #fdd623;
             font-weight: bold;
         }
+  /* Class Selectors */
         .green-accent {
             color: #52e021;
             font-weight: bold;
         }
+  /* Class Selectors */
         .gray-accent {
             color: #7f8b72;
             font-weight: bold;
         }
-
+  /* Class Selectors */
         .intro-text {
             font-size: 1.1rem;
             line-height: 1.9;
@@ -100,6 +108,7 @@
             border-radius: 4px;
         }
 /* I use important because the background color is important to have the right color */
+   /* Class Selectors & combinators & descendant */
         .intro-text > p{
             font-size: 1.1rem;
             line-height: 1.9;
@@ -111,7 +120,7 @@
             border-radius: 4px;
         }
 
-
+  /* Class Selectors */
         .code-example {
             background-color: #0a0e27;
             padding: 1rem;
@@ -122,14 +131,14 @@
             color: #00d4ff;
             overflow-x: auto;
         }
-
+  /* Class Selectors */
         .button-group {
             display: flex;
             gap: 1rem;
             margin: 1.5rem 0;
             flex-wrap: wrap;
         }
-
+  /* Class Selectors */
         .btn {
             padding: 0.75rem 1.5rem;
             background-color: #7f8b72;
@@ -140,17 +149,17 @@
             cursor: pointer;
             transition: all 0.3s ease;
         }
-
+  /* Class Selectors */
         .btn:hover {
             background-color: #52e021;
             box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
         }
-
+  /* Class Selectors & combinators & descendant */
         .btn > .btn-secondary {
             background-color: #;
             color: #0a0e27;
         }
-
+ /* Class Selectors & combinators & descendant */
         .btn:hover > .btn-secondary:hover {
             background-color: #ff00ff; 
             box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
@@ -164,7 +173,7 @@
             border:none;
             border-bottom: 3px dashed #fdd623;
         }
-
+* ID Selector */
         #contact-section {
             border: 2px solid #ff00ff;
             text-align: center;
