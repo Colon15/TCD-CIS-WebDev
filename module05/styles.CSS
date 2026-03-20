@@ -57,6 +57,14 @@
             color: #fdd623;
             font-weight: bold;
         }
+        .green-accent {
+            color: #0dd314;
+            font-weight: bold;
+        }
+        .gray-accent {
+            color: #7f8b72;
+            font-weight: bold;
+        }
 
         .intro-text {
             font-size: 1.1rem;
