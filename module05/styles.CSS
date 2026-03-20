@@ -18,7 +18,7 @@
         /* Class Selectors */
         .highlight {
             background-color: #1a2a5e;
-            color: #00d4ff;
+            color: #fdd623;
             padding: 0.25em 0.5em;
             border-radius: 4px;
             font-weight: bold;
@@ -40,7 +40,7 @@
         }
 
         .feature-card:hover {
-            border-color: #00d4ff;
+            border-color: #fdd623;
             box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
         }
 
