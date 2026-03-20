@@ -21,6 +21,17 @@
         
 
         /* Class Selectors */
+/* attribute selector*/
+        .btn[href*="(wiki)"]{
+            padding: 0.75rem 1.5rem;
+            background-color: #7f8b72;
+            color: #0a0e27;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
   /* Class Selectors */
         .levels-list{
             margin-left: 2rem;
@@ -138,17 +149,7 @@
             margin: 1.5rem 0;
             flex-wrap: wrap;
         }
-  /* Class Selectors */
-        .btn {
-            padding: 0.75rem 1.5rem;
-            background-color: #7f8b72;
-            color: #0a0e27;
-            border: none;
-            border-radius: 4px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
+
   /* Class Selectors */
         .btn:hover {
             background-color: #52e021;
