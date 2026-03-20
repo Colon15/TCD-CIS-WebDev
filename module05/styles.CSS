@@ -22,11 +22,14 @@
 
         /* Class Selectors */
 
-        
-        .cyan-accent:nthof-type(odd){
+        .levels-list{
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }        
+        .levels-list-level:nthof-type(odd){
             color: #52e021
         }
-        .cyan-accent:nthof-type(even){
+        .levels-list-level:nthof-type(even){
             color: #000000
         }
         .highlight {
