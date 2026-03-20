@@ -18,12 +18,7 @@
         li {
             margin-bottom: 0.5rem;
         }
-        li "cyan-accent":nth-child(odd){
-            color: #52e021
-        }
-        li "cyan-accent":nth-child(even){
-            color: #000000
-        }
+        
 
         /* Class Selectors */
         .highlight {
