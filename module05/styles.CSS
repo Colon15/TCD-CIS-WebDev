@@ -134,18 +134,18 @@
         }
         body {
             color: #e0e0e0;
-            background-color: #0a0e27;
+            background-color: #09880c;
             font: Arial, sans-serif;
             line-height: 1.6;
         }
         header {
-            background-color: #0f1a3d;
+            background-color: #09880c;
             padding: 2rem;
-            border: 3px solid #ff00ff;
+            border: 3px solid #fdd623;
             margin: 0px, 0px, 2rem;
         }
         footer {
-            background-color: #0f1a3d;
+            background-color: #09880c;
             color: #00d4ff;
             padding: 2rem;
             text-align: center;
