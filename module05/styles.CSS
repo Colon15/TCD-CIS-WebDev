@@ -21,6 +21,17 @@
         
 
         /* Class Selectors */
+
+        .list{
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .list:nthof-type(odd){
+            color: #52e021
+        }
+        .list:nthof-type(even){
+            color: #000000
+        }
         .highlight {
             background-color: #067006;
             color: #fdd623;
